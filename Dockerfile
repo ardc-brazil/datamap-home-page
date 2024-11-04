@@ -23,6 +23,7 @@ RUN \
   if [ ! -f .env.production ]; then \
     echo ".env.production not found!"; \
     echo "You have to copy ${ENV_FILE_PATH} as '.env.production' local file before build"; \
+    exit 1; \
   else \ 
     echo "no"; \
   fi  
