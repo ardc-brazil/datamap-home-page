@@ -9,7 +9,7 @@ export function Navbar() {
       <div className="mx-auto w-full px-2 backdrop-blur-md bg-primary-50/90">
         <div className="flex items-center py-1 h-16">
           <Link href="/" className="pl-6 py-4">
-            <Image width={0} height={0} src="/img/logo.svg" alt="DataMap" className="w-fit h-9" />
+            <Image width={0} height={0} src="/h/img/logo.svg" alt="DataMap" className="w-fit h-9" />
           </Link>
 
           <HiddenNav items={["Search", "Tools", "Support"]}>

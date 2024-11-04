@@ -17,13 +17,13 @@ export default function PartnersAndSupporters() {
 
             <div className="flex flex-row gap-8 justify-center p-8">
                 <a href="https://www.usp.br/" target="_blank">
-                    <Image width={100} height={0} className="grayscale hover:grayscale-0 inline-block w-64 self-center" src="/img/partners-supporters/usp-logo.png" alt="University of São Paulo (USP)" />
+                    <Image width={100} height={0} className="grayscale hover:grayscale-0 inline-block w-64 self-center" src="/h/img/partners-supporters/usp-logo.png" alt="University of São Paulo (USP)" />
                 </a>
                 <a href="https://www.gov.br/inpe" target="_blank">
-                    <Image width={100} height={0} className="grayscale hover:grayscale-0 inline-block w-40 self-center" src="/img/partners-supporters/inpe-logo.png" alt="National Institute for Space Research (INPE)" />
+                    <Image width={100} height={0} className="grayscale hover:grayscale-0 inline-block w-40 self-center" src="/h/img/partners-supporters/inpe-logo.png" alt="National Institute for Space Research (INPE)" />
                 </a>
                 <a href="https://www.unicamp.br/" target="_blank">
-                    <Image width={100} height={0} className="grayscale hover:grayscale-0 inline-block w-28 self-center" src="/img/partners-supporters/unicamp-logo.svg" alt="University of Campinas (Unicamp)" />
+                    <Image width={100} height={0} className="grayscale hover:grayscale-0 inline-block w-28 self-center" src="/h/img/partners-supporters/unicamp-logo.svg" alt="University of Campinas (Unicamp)" />
                 </a>
             </div>
 
@@ -33,13 +33,13 @@ export default function PartnersAndSupporters() {
             </p>
             <div className="flex flex-row gap-8 justify-center p-4">
                 <a href="https://datacite.org/" target="_blank">
-                    <Image width={100} height={0} className="grayscale hover:grayscale-0 inline-block w-64 self-center" src="/img/partners-supporters/datacite-logo.png" alt="DataCite" />
+                    <Image width={100} height={0} className="grayscale hover:grayscale-0 inline-block w-64 self-center" src="/h/img/partners-supporters/datacite-logo.png" alt="DataCite" />
                 </a>
                 <a href="https://www.shell.com.br/" target="_blank">
-                    <Image width={100} height={0} className="grayscale hover:grayscale-0 inline-block w-20 self-center" src="/img/partners-supporters/shell-logo.png" alt="Shell" />
+                    <Image width={100} height={0} className="grayscale hover:grayscale-0 inline-block w-20 self-center" src="/h/img/partners-supporters/shell-logo.png" alt="Shell" />
                 </a>
                 <a href="https://fapesp.br/" target="_blank">
-                    <Image width={100} height={0} className="grayscale hover:grayscale-0 inline-block w-64 h-fit self-center" src="/img/partners-supporters/fapesp-logo.png" alt="São Paulo Research Foundation (Fapesp)" />
+                    <Image width={100} height={0} className="grayscale hover:grayscale-0 inline-block w-64 h-fit self-center" src="/h/img/partners-supporters/fapesp-logo.png" alt="São Paulo Research Foundation (Fapesp)" />
                 </a>
             </div>
             <h3>Collaboration</h3>
@@ -48,7 +48,7 @@ export default function PartnersAndSupporters() {
             </p>
             <div className="flex flex-row gap-8 justify-center p-4">
                 <a href="https://www.arm.gov/" target="_blank">
-                    <Image width={100} height={0} className="grayscale hover:grayscale-0 inline-block w-64 self-center" src="/img/partners-supporters/arm-logo.png" alt="Atmospheric Radiation Measurement (ARM)" />
+                    <Image width={100} height={0} className="grayscale hover:grayscale-0 inline-block w-64 self-center" src="/h/img/partners-supporters/arm-logo.png" alt="Atmospheric Radiation Measurement (ARM)" />
                 </a>
             </div>
 

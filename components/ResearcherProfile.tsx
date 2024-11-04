@@ -12,7 +12,7 @@ interface ResearcherProps {
 export function ResearcherProfile(props: ResearcherProps) {
 
     function profilePictureUrl() {
-        return props.profile.profilePicture ?? "/img/researcher-profile/default-profile.webp"
+        return props.profile.profilePicture ?? "/h/img/researcher-profile/default-profile.webp"
     }
 
     function ResearcherContainer() {
@@ -23,7 +23,7 @@ export function ResearcherProfile(props: ResearcherProps) {
                 </div>
                 <Image width={100} height={0} className="rounded w-52 h-52" src={profilePictureUrl()} alt={`${props.profile.name} - ${props.profile.role}`} />
                 <h5 className="text-center">{props.profile.name}{props.profile.orcid &&
-                    <Image width={0} height={0} src="/img/orcid-logo.svg" className="w-4 inline-block ml-2" alt="ORCID link" />
+                    <Image width={0} height={0} src="/h/img/orcid-logo.svg" className="w-4 inline-block ml-2" alt="ORCID link" />
                 }</h5>
                 <span className="font-light">{props.profile.role}</span>
             </div>

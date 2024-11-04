@@ -16,7 +16,7 @@ export function Footer(props: FooterProps) {
         <div className="grid grid-rows-1 md:grid-flow-col px-8 gap-4">
           <div className="row-span-2">
             <Link href="/">
-              <Image src="/img/logo.svg" alt="DataMap" className="md:px-6 w-60 " width={0} height={0} />
+              <Image src="/h/img/logo.svg" alt="DataMap" className="md:px-6 w-60 " width={0} height={0} />
             </Link>
             <p className="md:px-12 py-8">
               Have an account?{" "}
@@ -73,25 +73,25 @@ export function Footer(props: FooterProps) {
         </div>
         <div className="p-12 flex flex-row gap-4 justify-center">
           <a href="https://www.usp.br/" target="_blank">
-            <Image width={100} height={0} className="grayscale hover:grayscale-0 inline-block w-24 self-center" src="/img/partners-supporters/usp-logo.png" alt="University of São Paulo (USP)" />
+            <Image width={100} height={0} className="grayscale hover:grayscale-0 inline-block w-24 self-center" src="/h/img/partners-supporters/usp-logo.png" alt="University of São Paulo (USP)" />
           </a>
           <a href="https://www.gov.br/inpe" target="_blank">
-            <Image width={100} height={0} className="grayscale hover:grayscale-0 inline-block w-16 self-center" src="/img/partners-supporters/inpe-logo.png" alt="National Institute for Space Research (INPE)" />
+            <Image width={100} height={0} className="grayscale hover:grayscale-0 inline-block w-16 self-center" src="/h/img/partners-supporters/inpe-logo.png" alt="National Institute for Space Research (INPE)" />
           </a>
           <a href="https://www.unicamp.br/" target="_blank">
-            <Image width={100} height={0} className="grayscale hover:grayscale-0 inline-block w-12 self-center" src="/img/partners-supporters/unicamp-logo.svg" alt="University of Campinas (Unicamp)" />
+            <Image width={100} height={0} className="grayscale hover:grayscale-0 inline-block w-12 self-center" src="/h/img/partners-supporters/unicamp-logo.svg" alt="University of Campinas (Unicamp)" />
           </a>
           <a href="https://datacite.org/" target="_blank">
-            <Image width={100} height={0} className="grayscale hover:grayscale-0 inline-block w-32 self-center" src="/img/partners-supporters/datacite-logo.png" alt="DataCite" />
+            <Image width={100} height={0} className="grayscale hover:grayscale-0 inline-block w-32 self-center" src="/h/img/partners-supporters/datacite-logo.png" alt="DataCite" />
           </a>
           <a href="https://www.shell.com.br/" target="_blank">
-            <Image width={100} height={0} className="grayscale hover:grayscale-0 inline-block w-7 self-center" src="/img/partners-supporters/shell-logo.png" alt="Shell" />
+            <Image width={100} height={0} className="grayscale hover:grayscale-0 inline-block w-7 self-center" src="/h/img/partners-supporters/shell-logo.png" alt="Shell" />
           </a>
           <a href="https://fapesp.br/" target="_blank">
-            <Image width={100} height={0} className="grayscale hover:grayscale-0 inline-block w-24 h-fit self-center" src="/img/partners-supporters/fapesp-logo.png" alt="São Paulo Research Foundation (Fapesp)" />
+            <Image width={100} height={0} className="grayscale hover:grayscale-0 inline-block w-24 h-fit self-center" src="/h/img/partners-supporters/fapesp-logo.png" alt="São Paulo Research Foundation (Fapesp)" />
           </a>
           <a href="https://www.arm.gov/" target="_blank">
-            <Image width={100} height={0} className="grayscale hover:grayscale-0 inline-block w-24 self-center" src="/img/partners-supporters/arm-logo.png" alt="Atmospheric Radiation Measurement (ARM)" />
+            <Image width={100} height={0} className="grayscale hover:grayscale-0 inline-block w-24 self-center" src="/h/img/partners-supporters/arm-logo.png" alt="Atmospheric Radiation Measurement (ARM)" />
           </a>
         </div>
       </div>
