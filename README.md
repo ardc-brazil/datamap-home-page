@@ -116,6 +116,9 @@ cd datamap-home-page
 # Get the last (main) branch version
 git pull
 
+# Copy ../environment/home-page.prod.env to .env.production
+cp ../environment/home-page.prod.env .env.production
+
 # Rebuild the image (to make sure)
 ENV_FILE_PATH=../environment/home-page.prod.env docker-compose build
 

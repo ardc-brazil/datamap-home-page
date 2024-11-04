@@ -18,17 +18,6 @@ RUN \
   else echo "Lockfile not found." && exit 1; \
   fi
 
-# Check if .env file exists
-COPY env.production ${ENV_FILE_PATH}
-RUN \
-  if [ ! -f .env.production ]; then \
-    echo ".env.production not found!"; \
-    echo "You have to copy ${ENV_FILE_PATH} as '.env.production' local file before build"; \
-    exit 1; \
-  else \ 
-    echo "no"; \
-  fi  
-
 
 # Rebuild the source code only when needed
 FROM node:18-alpine AS builder
