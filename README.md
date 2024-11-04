@@ -116,15 +116,6 @@ cd datamap-home-page
 # Get the last (main) branch version
 git pull
 
-# Copy ../environment/home-page.prod.env to .env.production
-cp ../environment/home-page.prod.env .env.production
-
-# Rebuild the image (to make sure)
-ENV_FILE_PATH=../environment/home-page.prod.env docker-compose build
-
-# Stop backend containers
-ENV_FILE_PATH=../environment/home-page.prod.env docker-compose down
-
-# Start backend
-ENV_FILE_PATH=../environment/home-page.prod.env docker-compose up -d
+# Rebuild the image and deploy the new version
+ENV_FILE_PATH=../environment/home-page.prod.env make docker-deployment
 ```
