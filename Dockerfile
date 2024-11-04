@@ -19,7 +19,7 @@ RUN \
   fi
 
 # Check if .env file exists
-COPY env.production "${ENV_FILE_PATH}"
+COPY env.production ${ENV_FILE_PATH}
 RUN \
   if [ ! -f .env.production ]; then \
     echo ".env.production not found!"; \
