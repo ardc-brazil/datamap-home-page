@@ -35,7 +35,7 @@ export default function HomePage() {
         <div className="container mx-auto flex flex-row flex-wrap pt-56 pb-24">
           <div className="w-full">
             <h1 className="font-bold text-7xl md:text-8xl text-center pb-8">
-              <TextDecorationBolder>DataMap</TextDecorationBolder>
+              <TextDecorationBolder>DataMap ${process.env.NEXT_PUBLIC_DATAMAP_BASE_URL}</TextDecorationBolder>
             </h1>
 
             <h1 className="font-normal text-6xl md:text-7xl text-center pb-8">
